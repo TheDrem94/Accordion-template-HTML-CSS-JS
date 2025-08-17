@@ -1,0 +1,17 @@
+.text-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color: aqua;
+}
+
+.text-content.active {
+    max-height: 500px;
+}
+
+.list-head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: aquamarine;
+}
